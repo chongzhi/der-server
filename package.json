@@ -1,0 +1,22 @@
+{
+  "name": "der-server",
+  "version": "0.0.6",
+  "description": "to create a node server",
+  "main": "der-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chongzhi/node-server.git"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "Der",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "21f8630dde4e449777170679efb1dce67ca224eb"
+}

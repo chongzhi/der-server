@@ -1,4 +1,9 @@
-der-server
-==========
+node-server
+===========
 
-server for node 
+to create a node server
+    `module: der-server.js`
+
+usage:
+    `require('der-server').start(dir, defaultPage, port);`
+
