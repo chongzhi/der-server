@@ -12,7 +12,7 @@ var path = require('path');
  */
 var start = function (dir, defaultPage, port) {
 
-     //默认值
+    //默认值啊啊啊
     dir = dir || './';
     defaultPage = defaultPage || 'index.html';
     port = port || 80;

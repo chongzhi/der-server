@@ -1,6 +1,6 @@
 {
   "name": "der-server",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "to create a node server",
   "main": "der-server.js",
   "scripts": {
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chongzhi/node-server.git"
+    "url": "git@github.com:chongzhi/der-server.git"
   },
   "keywords": [
     "node",
     "server"
   ],
-  "author": "Der",
+  "author": "chongzhi",
   "license": "BSD",
   "readmeFilename": "README.md",
   "gitHead": "21f8630dde4e449777170679efb1dce67ca224eb"
