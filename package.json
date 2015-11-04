@@ -1,6 +1,6 @@
 {
   "name": "der-server",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "to create a node server",
   "main": "der-server.js",
   "scripts": {

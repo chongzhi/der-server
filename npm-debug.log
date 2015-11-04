@@ -1,0 +1,71 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/chongzhi/work/der-server',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/chongzhi/.npm/der-server/0.0.8/package.tgz not in flight; packing
+9 info lifecycle der-server@0.0.8~prepublish: der-server@0.0.8
+10 silly lifecycle der-server@0.0.8~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/chongzhi/.npm/der-server/0.0.8/package.tgz',
+11 verbose tar pack   '/Users/chongzhi/work/der-server' ]
+12 verbose tarball /Users/chongzhi/.npm/der-server/0.0.8/package.tgz
+13 verbose folder /Users/chongzhi/work/der-server
+14 verbose addLocalTarball adding from inside cache /Users/chongzhi/.npm/der-server/0.0.8/package.tgz
+15 silly cache afterAdd der-server@0.0.8
+16 verbose afterAdd /Users/chongzhi/.npm/der-server/0.0.8/package/package.json not in flight; writing
+17 verbose afterAdd /Users/chongzhi/.npm/der-server/0.0.8/package/package.json written
+18 silly publish { name: 'der-server',
+18 silly publish   version: '0.0.8',
+18 silly publish   description: 'to create a node server',
+18 silly publish   main: 'der-server.js',
+18 silly publish   scripts:
+18 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+18 silly publish      start: 'node server.js' },
+18 silly publish   repository: { type: 'git', url: 'git@github.com:chongzhi/der-server.git' },
+18 silly publish   keywords: [ 'node', 'server' ],
+18 silly publish   author: { name: 'chongzhi' },
+18 silly publish   license: 'BSD',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: '21f8630dde4e449777170679efb1dce67ca224eb',
+18 silly publish   readme: 'node-server - te\n===========\n\nto create a node server\n    `module: der-server.js`\n\nusage:\n    `require(\'der-server\').start(dir, defaultPage, port);`\n\n',
+18 silly publish   bugs: { url: 'https://github.com/chongzhi/der-server/issues' },
+18 silly publish   homepage: 'https://github.com/chongzhi/der-server',
+18 silly publish   _id: 'der-server@0.0.8',
+18 silly publish   _shasum: '9ae24a047ff20ea7a61c154182590c9761a6e384',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name der-server
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/der-server
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /Users/chongzhi/.npm/der-server/0.0.8/package.tgz
+26 verbose stack TypeError: Cannot read property 'fixNameField' of undefined
+26 verbose stack     at CachingRegistryClient.publish (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:41:10)
+26 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:137:14
+26 verbose stack     at mapToRegistry (/usr/local/lib/node_modules/npm/lib/utils/map-to-registry.js:55:3)
+26 verbose stack     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:106:3)
+26 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+26 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+26 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+26 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+26 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:72:5
+26 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+27 verbose cwd /Users/chongzhi/work/der-server
+28 error Darwin 14.5.0
+29 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+30 error node v5.0.0
+31 error npm  v3.3.6
+32 error Cannot read property 'fixNameField' of undefined
+33 error If you need help, you may report this error at:
+33 error     <https://github.com/npm/npm/issues>
+34 verbose exit [ 1, true ]
